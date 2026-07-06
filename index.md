@@ -8,7 +8,7 @@
 
 使用上遇到任何問題、發現 bug、或想跟我們說說話（廢廢會轉告），歡迎來信：
 
-**📮 llc890410@gmail.com**
+**📮 wasteward.studio@gmail.com**
 
 我們是很小的團隊（小到跟廢廢差不多），信一定會看，回覆請給我們一點時間。
 
@@ -33,4 +33,4 @@
 
 ---
 
-*For support in English, please email **llc890410@gmail.com**.*
+*For support in English, please email **wasteward.studio@gmail.com**.*
