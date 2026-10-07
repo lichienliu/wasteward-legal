@@ -1,10 +1,10 @@
 ---
 title: 廢廢復健所
-description: 跟軟萌怪獸廢廢一起，每天完成一點小事。沒有進度條、沒有指責，你動一下，牠就發光陪你開心。
+description: 跟廢廢一起，每天完成一點小事。沒有進度條、沒有指責，你動一下，牠就發光陪你開心。
 ---
 
 <div class="fei-hero">
-  <img src="assets/fei.png" alt="廢廢，一隻軟萌怪獸，頭上貼著一塊 OK 蹦" width="180" height="180">
+  <img src="assets/fei.png" alt="廢廢，頭上貼著一塊 OK 蹦的廢廢怪獸" width="180" height="180">
   <h1>廢廢復健所</h1>
   <p class="fei-tagline">做一件小事就好，廢廢陪你</p>
   <div class="fei-stores">
