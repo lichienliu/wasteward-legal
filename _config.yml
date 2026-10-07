@@ -1,0 +1,13 @@
+title: 廢廢復健所
+tagline: 做一件小事就好，廢廢陪你
+description: 跟軟萌怪獸廢廢一起，每天完成一點小事。沒有進度條、沒有指責，你動一下，牠就發光陪你開心。
+lang: zh-Hant
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

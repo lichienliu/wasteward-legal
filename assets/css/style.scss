@@ -1,0 +1,91 @@
+---
+---
+@import "jekyll-theme-primer";
+
+// 顏色跟 App 的 WasteColors 同一組（淺色）
+$fei-bg: #F4F7F8;
+$fei-surface: #FFFFFF;
+$fei-ink: #3F464D;
+$fei-body: #7C868E;
+$fei-muted: #8DA0AE;
+$fei-border: #DFE5E9;
+$fei-primary: #5D7689;
+$fei-tile: #E9EFF3;
+
+body {
+  background: $fei-bg;
+  color: $fei-ink;
+}
+
+.markdown-body {
+  max-width: 720px;
+  margin: 0 auto;
+  color: $fei-ink;
+  font-size: 17px;
+  line-height: 1.75;
+
+  h1, h2, h3 { color: $fei-ink; border-bottom: none; }
+  h2 { margin-top: 2.5em; font-size: 1.35em; }
+  p, li { color: $fei-body; }
+  strong { color: $fei-ink; }
+  a { color: $fei-primary; }
+  hr { background: $fei-border; height: 2px; margin: 2.5em 0; }
+  blockquote { color: $fei-body; border-left-color: $fei-border; }
+}
+
+// 頁首：廢廢、App 名、一句話、兩顆商店按鈕
+.fei-hero {
+  text-align: center;
+  padding: 2em 0 1em;
+
+  img {
+    width: 180px;
+    height: 180px;
+    border-radius: 44px;
+    background: $fei-tile;
+    border: 2px solid $fei-ink;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  h1 { margin: 0.6em 0 0.2em; font-size: 2em; }
+  .fei-tagline { color: $fei-body; font-size: 1.15em; margin: 0 0 1.4em; }
+}
+
+.fei-stores {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  a {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 999px;
+    border: 2px solid $fei-ink;
+    background: $fei-surface;
+    color: $fei-ink;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover { background: $fei-tile; text-decoration: none; }
+  }
+  a.fei-primary {
+    background: $fei-primary;
+    border-color: $fei-primary;
+    color: #fff;
+    &:hover { background: darken($fei-primary, 6%); }
+  }
+}
+
+.fei-note {
+  text-align: center;
+  color: $fei-muted;
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
+.fei-footer {
+  text-align: center;
+  color: $fei-muted;
+  font-size: 0.85em;
+  margin-top: 3em;
+}
